@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblwmqtt.a  CMakeFiles/lwmqtt.dir/src/client.c.o CMakeFiles/lwmqtt.dir/src/helpers.c.o CMakeFiles/lwmqtt.dir/src/packet.c.o CMakeFiles/lwmqtt.dir/src/string.c.o CMakeFiles/lwmqtt.dir/src/os/unix.c.o
+/usr/bin/ranlib liblwmqtt.a

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lwmqtt.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+../include/lwmqtt/unix.h
+sys/time.h
+-
+lwmqtt.h
+-
+
+/home/pi/MQTT/lwmq/examples/pub.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+lwmqtt/unix.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wextra -Wpedantic -Werror -Wno-unused-parameter   CMakeFiles/print.exe.dir/examples/print.c.o  -o print.exe -rdynamic liblwmqtt.a -lssl -lcrypto 
